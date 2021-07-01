@@ -230,7 +230,6 @@ article#p5 {
   font-size: 18px;
   text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
   height: 20px;
-  width: 200px;
 }
 
 .personalPage .back-btn:hover {
@@ -418,6 +417,10 @@ article#p5 {
   }
 
   /* End Personal Page */
+
+  .personalPage .back-btn {
+    width: 100px;
+  }
 }
 /* --------------- End Tablet ----------------- */
 
@@ -550,6 +553,10 @@ article#p5 {
 
   .personalPage .blog nav ul li a strong {
     margin-right: 1em;
+  }
+
+  .personalPage .back-btn {
+    width: 100px;
   }
 
   /* End Personal Page */
