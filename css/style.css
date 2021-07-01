@@ -33,6 +33,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
+}
+
+body {
   color: #2f375b;
 }
 
