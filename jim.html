@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/tabs.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <style type="text/css">
+      .personalPage .blog nav ul li a.current {
+        color: #2f375b;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container personalPage" style="background-color: #2f375b">
+      <a class="back-btn" href="index.html">&lt; Home</a>
+      <section class="character">
+        <video muted loop autoplay>
+          <source src="animations/jim.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <h1>Jim</h1>
+        <img class="object" src="images/objects/headphone.svg" alt="headphone" />
+      </section>
+      <section class="blog">
+        <nav>
+          <ul>
+            <li>
+              <a class="tablink current" href="#" onclick="openLearningGoal(event, 'goal1')">
+                <strong>Leerdoel 1</strong>
+                <p>Illustration</p>
+              </a>
+            </li>
+            <li>
+              <a class="tablink" href="#" onclick="openLearningGoal(event, 'goal2')">
+                <strong>Leerdoel 3</strong>
+                <p>Tekenen</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <article class="process">
+          <!-- Learning Goal 1 -->
+          <section class="learningGoal" id="goal1" style="display: block">
+            <h1>Leerdoel 1</h1>
+            <h2>Illustration</h2>
+            <p>
+              “Het verbeteren van m'n Adobe Illustrator vaardigheden aan de hand van nieuwe functies en shortcuts. Hierbij wil ik
+              focussen op de elementen van licht en schaduw.” Tijdens de start van dit leerdoel kende ik vrijwel alleen de basis
+              van Illustrator en wilde ik me hier graag meer in verdiepen. Tekenen is vanaf jongs af aan een hobby geweest van me
+              (echter sinds de 2e klas niet meer opgepakt) en dit wilde ik graag ook kunnen door vertalen naar digitale
+              illustraties. Zo ben ik eigenlijk bij m'n leerdoel uitgekomen. Om te beginnen zijn hieronder foto's van de start van
+              het blok te zien.
+            </p>
+            <img src="images/jim/blok1-1.PNG" alt="Blok 1" />
+            <img src="images/jim/blok1-2.PNG" alt="Blok 1" />
+            <p>
+              Na 5 weken verschillende tutorials, eigen opdrachten & oefeningen uit te voeren ben ik uitgekomen op de onderstaande
+              resultaten waar ik achteraf gezien erg trots op!
+            </p>
+            <img src="images/jim/blok1-3.PNG" alt="Blok 1" />
+            <img src="images/jim/blok1-4.PNG" alt="Blok 1" />
+          </section>
+
+          <!-- Learning Goal 2 -->
+          <section class="learningGoal" id="goal2">
+            <h1>Leerdoel 3</h1>
+            <h2>Tekenen</h2>
+            <p>
+              “Het verbeteren van mijn tekenvaardigheden door nieuwe trucjes aan te leren en op deze manier ook een aantal stijlen
+              te verkennen. Het leerdoel wordt onderverdeeld in natuur & anatomie van de mens. De natuur vooral voor de diverse
+              vormen en technieken/effecten die hierop toegepast kunnen worden. De anatomie van de mens is vooral omdat ik er
+              moeite mee heb om characters juist te tekenen wanneer ze iets uitvoeren. Hierbij wil ik vooral verkennen of er een
+              methode is om gemakkelijk elke positie voor een character te kunnen tekenen.”
+            </p>
+            <br />
+            <p>
+              Het 3e leerdoel is voor mij dus vooral het verbeteren van mijn tekenvaardigheden. Vanaf jongs af aan heb ik aanleg
+              voor tekenen maar dit heb ik eigenlijk niet meer doorgezet sinds de 2e klas. Het leek mij dus een leuk idee om hier
+              een leerdoel voor op te stellen en wellicht een nieuwe hobby mee op te pakken na afloop! Hieronder zijn afbeeldingen
+              zien van de start van beide onderwerpen.
+            </p>
+            <img src="images/jim/blok3-1.jpg" alt="Blok 3" />
+            <img src="images/jim/blok3-2.jpg" alt="Blok 3" />
+            <p>
+              Na 5 weken zijn er mooie resultaten uitgekomen, ondanks dat het tekenen niet altijd evengoed lukt. Doorzetten is de
+              sleutel wanneer het tegenzit. Hieronder zijn de eindresultaten te vinden waar ik achteraf ook erg blij mee ben!
+            </p>
+            <img src="images/jim/blok3-3.jpg" alt="Blok 3" />
+            <img src="images/jim/blok3-4.jpg" alt="Blok 3" />
+          </section>
+        </article>
+      </section>
+    </section>
+  </body>
+</html>
