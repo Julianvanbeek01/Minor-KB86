@@ -40,6 +40,61 @@
 }
 /* End General */
 
+/* Buttons */
+.btn-yellow {
+  background-color: #fec240;
+}
+
+.btn-yellow:hover {
+  background-color: white;
+  border: 1px solid #d69d1d;
+  box-shadow: 6px 6px 0 rgba(255, 255, 255, 0.3);
+  color: #fec240;
+}
+
+.btn-red {
+  background-color: #de4b43;
+}
+
+.btn-red:hover {
+  background-color: white;
+  border: 1px solid #923530;
+  box-shadow: 6px 6px 0 rgba(255, 255, 255, 0.3);
+  color: #de4b43;
+}
+
+.btn-lightblue {
+  background-color: #98c4d1;
+}
+.btn-lightblue:hover {
+  background-color: white;
+  border: 1px solid #578897;
+  box-shadow: 6px 6px 0 rgba(255, 255, 255, 0.3);
+  color: #98c4d1;
+}
+
+.btn-darkblue {
+  background-color: #2f375b;
+}
+
+.btn-darkblue:hover {
+  background-color: white;
+  border: 1px solid #5d699e;
+  box-shadow: 6px 6px 0 rgba(255, 255, 255, 0.3);
+  color: #2f375b;
+}
+
+.btn-green {
+  background-color: #3bb28c;
+}
+
+.btn-green:hover {
+  background-color: white;
+  border: 1px solid #1c6d53;
+  box-shadow: 6px 6px 0 rgba(255, 255, 255, 0.3);
+  color: #3bb28c;
+}
+
 /* Landings Page */
 .landing {
   width: 100vw;
@@ -121,6 +176,7 @@
   border: 1px solid white;
   box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.3);
   padding: 4px 3em;
+  transition: 200ms;
 }
 
 .person lottie-player {
@@ -386,7 +442,7 @@ article#p5 {
 
   .landing .character .mobile-object {
     display: block;
-    height: 50%;
+    width: 15%;
     margin-right: 2em;
   }
 
